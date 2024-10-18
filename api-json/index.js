@@ -15,6 +15,6 @@ app.get('/', async (req, res) => {
 
 app.use('/v1/signos', router);
 
-app.listen(horoscopo-backend.vercel.app, () => {
-    console.log('Conectado a Vercel');
+app.listen(4000, () => {
+    console.log('listening at port 4000');
 })
