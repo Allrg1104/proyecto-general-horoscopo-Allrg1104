@@ -2,6 +2,7 @@ const express = require('express');
 const { urlencoded, json } = require('express');
 const router = require('./routes/signos.routes.js');
 const cors = require('cors');
+app.use(cors({ origin: '*' }));
 
 const app = express();
 
